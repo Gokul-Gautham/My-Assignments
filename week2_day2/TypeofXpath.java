@@ -27,7 +27,7 @@ public class TypeofXpath {
 		//(b) partial atribute xpath
 		driver.findElement(By.xpath("//input[contains(@class,'Submit')]")).click();
 		
-		//(c) collection based xpath
+		//(c) collection based xpath , Here index starts with "1" and not with "0".
 		driver.findElement(By.xpath("//a[@style ='color: black;'][1]")).click();
 		
 		//(d) text based xpath
